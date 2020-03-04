@@ -1,5 +1,5 @@
 import { IReadOnlySignal } from "@rbxts/signals-tooling";
-import { TimerStopCause, TimerState } from "Data/Enums";
+import { TimerStopCause, TimerState } from "../Data/Enums";
 
 export interface IReadOnlyTimer {
 	// Fields

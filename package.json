@@ -1,8 +1,9 @@
 {
   "name": "@rbxts/timer",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "",
   "main": "out/init.lua",
+  "types": "out/index.d.ts",
   "scripts": {
     "prepublishOnly": "rbxtsc"
   },
@@ -17,10 +18,10 @@
     "url": "https://github.com/Bytebit-Org/roblox-Timer/issues"
   },
   "homepage": "https://github.com/Bytebit-Org/roblox-Timer#readme",
+  "private": false,
   "publishConfig": {
     "access": "public"
   },
-  "types": "out/index.d.ts",
   "devDependencies": {
     "@rbxts/types": "^1.0.340",
     "@typescript-eslint/eslint-plugin": "^2.17.0",
@@ -36,5 +37,8 @@
     "@rbxts/services": "^1.0.28",
     "@rbxts/signals-tooling": "^1.0.2",
     "@rbxts/t": "^1.2.9"
-  }
+  },
+  "files": [
+    "out"
+  ]
 }

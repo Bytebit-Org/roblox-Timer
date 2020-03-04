@@ -1,6 +1,6 @@
 import { IDestroyable } from "@rbxts/dumpster";
 import { IReadOnlyTimer } from "./IReadOnlyTimer";
-import { TimerStopCause } from "Data/Enums";
+import { TimerStopCause } from "../Data/Enums";
 
 export interface ITimer extends IReadOnlyTimer, IDestroyable {
 	// Methods

@@ -1,6 +1,9 @@
-export * from "Data/Enums";
+// Data
+export * from "./Data/Enums";
 
-export * from "Implementation/Timer";
+// Implementation
+export * from "./Implementation/Timer";
 
-export * from "Interfaces/IReadOnlyTimer";
-export * from "Interfaces/ITimer";
+// Interfaces
+export { IReadOnlyTimer } from "./Interfaces/IReadOnlyTimer";
+export { ITimer } from "./Interfaces/ITimer";
