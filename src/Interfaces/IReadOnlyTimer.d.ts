@@ -45,6 +45,11 @@ export interface IReadOnlyTimer {
 	/**
 	 * Gets the current projected end time in UTC
 	 */
+	getCurrentEndDateTime(): DateTime;
+
+	/**
+	 * Gets the current projected end time in UTC
+	 */
 	getCurrentEndTimeUtc(): number;
 
 	/**

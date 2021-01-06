@@ -70,6 +70,20 @@ export class Timer implements ITimer {
 		this.dumpster.burn();
 	}
 
+	public getCurrentEndDateTime() {
+		if (this.state !== TimerState.Running) {
+			throw "Cannot estimate end time when not running";
+		}
+
+		const timeLeftMillis = math.ceil(this.timeLeftInSeconds * 1000);
+		const currentDateTime = DateTime.now();
+		const currentEndDateTime = DateTime.fromUnixTimestampMillis(
+			currentDateTime.UnixTimestampMillis + timeLeftMillis,
+		);
+
+		return currentEndDateTime;
+	}
+
 	public getCurrentEndTimeUtc(): number {
 		if (this.state !== TimerState.Running) {
 			throw "Cannot estimate end time when not running";
