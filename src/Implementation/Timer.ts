@@ -1,12 +1,11 @@
 import { RunService } from "@rbxts/services";
 import { ConnectionManager, IConnectionManager, ISignal, Signal } from "@rbxts/signals-tooling";
-import t from "@rbxts/t";
 import { Dumpster } from "@rbxts/dumpster";
 import { ITimer } from "../Interfaces/ITimer";
 import { TimerStopCause, TimerState } from "../Data/Enums";
 
 function assertValidLength(lengthInSeconds: number) {
-	if (!t.numberPositive(lengthInSeconds)) {
+	if (lengthInSeconds <= 0) {
 		throw "Timer length must be greater than 0";
 	}
 }
