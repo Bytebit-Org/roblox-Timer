@@ -5,7 +5,7 @@
   "main": "out/init.lua",
   "types": "out/index.d.ts",
   "scripts": {
-    "prepublishOnly": "rbxtsc"
+    "prepublishOnly": "rm -rf ./out; rbxtsc --type=package"
   },
   "repository": {
     "type": "git",
