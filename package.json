@@ -1,7 +1,7 @@
 {
   "name": "@rbxts/timer",
   "version": "0.0.6",
-  "description": "",
+  "description": "A simple package for creating timers to more accurately track time and allow for cancellation. Written using roblox-ts.",
   "main": "out/init.lua",
   "types": "out/index.d.ts",
   "scripts": {
@@ -12,8 +12,8 @@
     "url": "git+https://github.com/Bytebit-Org/roblox-Timer.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Bytebit",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Bytebit-Org/roblox-Timer/issues"
   },
