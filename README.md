@@ -11,7 +11,7 @@ npm i @rbxts/timer
 ### Wally
 [Wally](https://github.com/UpliftGames/wally/) users can install this package by adding the following line to their `Wally.toml` under `[dependencies]`:
 ```
-Timer = "bytebit/timer@1.0.8"
+Timer = "bytebit/timer@0.0.7"
 ```
 
 Then just run `wally install`.
