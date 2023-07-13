@@ -100,7 +100,7 @@ export class Timer implements ITimer {
 	}
 
 	public pause(): void {
-		if (this.state === TimerState.Running) {
+		if (this.state !== TimerState.Running) {
 			throw "Cannot pause a timer that is not running";
 		}
 
