@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/timer",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A simple package for creating timers to more accurately track time and allow for cancellation. Written using roblox-ts.",
   "main": "out/init.lua",
   "types": "out/index.d.ts",
